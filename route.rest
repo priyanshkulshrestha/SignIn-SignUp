@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/users/
+Content-Type: application/json
+
+{
+    "firstName": "priyansh",
+    "email": "kul.pryansh@gmail.com",
+    "password": "3@819Khjkdhdhh"
+}
+
+
+###
+POST http://localhost:8080/api/auth/
+Content-Type: application/json
+
+{
+    "email": "kul.priyansh@gmail.com",
+    "password": "3@819Khjkdhdhh"
+}
